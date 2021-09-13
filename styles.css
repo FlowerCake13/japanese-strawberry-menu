@@ -1,0 +1,41 @@
+body{
+	background-color: #FFDDDD;
+	text-align: center;
+}
+
+h1{
+	font-weight: bold;
+	font-size: 45px;
+}
+
+img{
+	width: calc(20vw);
+}
+
+.item{
+	padding: 10px;
+	text-align: center;
+}
+
+#cake{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding-bottom: 50px;
+}
+
+#non-cake{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#row1, #row2, #row{
+	display: flex;
+}
+
+.price{
+	margin-top: -10px;
+	font-size: 12px;
+}
